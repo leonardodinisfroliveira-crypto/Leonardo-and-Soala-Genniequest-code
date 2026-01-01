@@ -1,0 +1,113 @@
+function setup() {
+  createCanvas(400, 300); //width,height pixels
+}
+
+function draw() {
+  background(220); //light gray
+  fill(255,0,0); //red
+  noStroke();
+  circle(200,150,100); //x,y,diameter
+}
+
+
+
+2nd code
+function setup() {
+  createCanvas(400, 300); //width,height pixels
+}
+
+function draw() {
+  background(0); //black
+  fill(100,0,225); //purple
+  noStroke();
+  circle(200,150,100); //x,y,diameter
+}
+
+
+3d code 
+
+
+function setup() {
+  createCanvas(400, 300); //width,height pixels
+}
+
+function draw() {
+  background(0); //black
+  fill(100,0,225); //purple
+  noStroke();
+  circle(mouseX,mouseY,40); //x,y,diameter
+  
+}
+
+
+
+function setup() {
+  createCanvas(400, 300); //width,height pixels
+}
+
+function draw() {
+  background("rgb(8,119,193)"); //rgb string
+  fill(100,0,225); //purple rgb
+  noStroke();
+  circle(mouseX,mouseY,40); //x,y,diameter
+  
+}
+
+4th code
+let x = 0;
+let y = 0;
+function setup() {
+  createCanvas(400, 300); //width,height pixels
+}
+function draw() {
+  background("rgb(8,119,193)"); //rgb string
+  fill(100,0,225); //purple rgb
+  circle(x,y,50); //x,y,diameter
+  x= x+ 20; //math
+  if (x > width){// when off-screen,reset
+  x= 0;
+    y= y + 20;
+    if (y > height ){
+      y = 0
+    }
+  }
+}
+ code 5
+function setup() {
+  createCanvas(400, 300); //width,height pixels
+}
+
+function draw() {
+  background(0,10); //rgb string
+  fill(100,0,225); //purple rgba{
+  noStroke();
+  circle(mouseX,mouseY,40); //x,y,diameter
+}
+
+
+random Collor : 
+
+let a = 0;
+let b= 0;
+let c = 0;
+
+function setup() {
+  createCanvas(400, 300); //width,height pixels
+  
+  }
+
+function draw() {
+  background(0,10); //rgb string
+  a = frameCount%255;
+  b = (frameCount*2)%225;
+  c = (frameCount*3)%225; 
+fill(a,b,c); //purple rgba{
+  noStroke();
+  circle(mouseX,mouseY,40); //x,y,diameter
+  
+  
+}
+
+let = var
+
+study tutorials

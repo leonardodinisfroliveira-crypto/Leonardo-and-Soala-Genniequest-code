@@ -1,0 +1,5 @@
+Study
+loops
+conditions
+arrays
+functions

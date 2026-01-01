@@ -1,0 +1,12 @@
+ </TableViewSection>
+            <TableViewSection id="sectionVeg" headerTitle="Status result">
+                <TableViewRow title="Sea buoy "/>
+                <TableViewRow title="deep Seadevice"/>
+            </TableViewSection>
+            <TableViewSection id="sectionFish" headerTitle="Trigger code">
+                <TableViewRow title="acustics"/>
+                <TableViewRow title="code"/>
+            </TableViewSection>
+        </TableView>
+    </Window>
+</Alloy>

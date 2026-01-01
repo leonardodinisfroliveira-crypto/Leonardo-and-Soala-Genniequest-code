@@ -1,0 +1,16 @@
+ <Switch></Switch>
+        <Slider></Slider>
+   <TableView>
+            <TableViewSection id="App1" headerTitle="Start">
+                <TableViewRow title="Status Buoy "/> 
+                <TableViewRow title="Status DeepSeadevice"/>
+            </TableViewSection>
+            <TableViewSection id="sectionVeg" headerTitle="Status result">
+                <TableViewRow title="Sea buoy "/>
+                <TableViewRow title="deep Seadevice"/>
+            </TableViewSection>
+            <TableViewSection id="sectionFish" headerTitle="Trigger code">
+                <TableViewRow title="acustics"/>
+                <TableViewRow title="code"/>
+            </TableViewSection>
+        </TableView>

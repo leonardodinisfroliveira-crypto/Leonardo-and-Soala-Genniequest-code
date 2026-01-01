@@ -1,0 +1,5 @@
+<h2>Location</h2>
+<iframe
+  title="Map - example"
+  src="https://www.openstreetmap.org/export/embed.html?bbox=-9.2%2C32.6%2C-16.9%2C39.7&layer=mapnik"
+  width="100%" height="300" style="border:0"></iframe>
